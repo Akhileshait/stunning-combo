@@ -41,3 +41,47 @@ app.*.map.json
 flutter_webview/android/app/debug
 flutter_webview/android/app/profile
 flutter_webview/android/app/release
+
+
+
+# dependencies
+hum-fauji-app/node_modules/
+
+# Expo
+hum-fauji-app/.expo/
+hum-fauji-app/dist/
+hum-fauji-app/web-build/
+hum-fauji-app/expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+
+.vercel
+
+# Local Netlify folder
+.netlify
